@@ -1,0 +1,186 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Видео</title>
+	<meta name="theme-color" content="#FFD400">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="stylesheet" type="text/css" href="attachment/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="attachment/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <style type="text/css">
+		body{
+			margin:0px;
+			padding:0px;
+		}
+		a{
+			-ms-color:rgb(237, 237, 237,0.9) !important;
+			-webkit-color:rgb(237, 237, 237,0.9) !important;
+			color:rgb(237, 237, 237,0.9) !important;
+		}
+		a:hover,a:active,a:focus{
+			color:white;
+		}
+		#container-fluid{
+			display: flex;
+			margin-top: 80px;
+			flex-flow: row wrap;
+			justify-content:space-between;
+			margin:80px 10px;
+			margin-bottom: 0px;
+		}
+		.video{
+			background-color: #111;
+			width: 30%;
+			margin-bottom: 20px;
+		}
+		.video p {
+			padding:0px 5px;
+		}
+		@media only screen and (max-width: 1000px){
+			#container-fluid{
+				margin:0px;
+				margin-top:80px;
+			}
+			.video{
+				width: 100%;
+			}
+
+		}
+		@media only screen and (max-width: 1024px) and (min-width: 600px) and (min-height: 900px){
+			.video{
+				width: 100%;
+				height: 470px;
+			}
+			.video p{
+				padding: 2.5% 15px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div id="content">
+	<!--------------------------------------------------- HEADER --------------------------------------------->
+  <div class="header">
+	<div class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container-fluid">
+        	<div class="navbar-header">
+          <button class="navbar-toggle">
+          	<span class="icon-bar"></span>
+          	<span class="icon-bar"></span>
+          	<span class="icon-bar"></span>
+          </button>
+          <div class="logo">
+          <a href="politnews.html">
+          <img src="img/logo.png" />
+          <div class="brand">
+          <p>Russian</p><p>Political</p><p>News</p>
+          </div></a>
+        </div>
+        </div>
+          <div class="navbar-collapse" style="display: none;" id="toggle">
+            <ul class="nav navbar-nav">
+          	   <li><a href="index.html">Новости</a></li>
+          	   <li><a href="video.html">Видео</a></li>
+               <li><a href="statistics.html">Статистика</a></li>
+            </ul>
+            <p class="pull-right" id='globaltime'></p>
+          </div>
+      </div>
+	</div>
+  </div>
+		<div  id="container-fluid">
+						<div class="video">
+			<iframe width="1263" height="480" src="https://www.youtube.com/embed/VuFSWb6A8lk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<p><a href="" onclick="turnOn()">PA PA KSN SJ SJ</a></p>
+		</div>
+						<div class="video">
+			<iframe width="1263" height="480" src="https://www.youtube.com/embed/qrwlk7_GF9g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		<p><a href="" onclick="turnOn()">PA PA KSN SJ SJ</a> </p></div>
+						<div class="video">
+			<iframe width="1263" height="480" src="https://www.youtube.com/embed/D9dPg3ofmyQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		<p><a href="" onclick="turnOn()">PA PA KSN SJ SJ </a></p></div>
+						<div class="video">
+			
+		<p><a href="" onclick="turnOn()">PA PA KSN SJ SJ </a></p></div>
+						<div class="video">
+			
+		<p><a href="" onclick="turnOn()">PA PA KSN SJ SJ </a></p></div>
+						<div class="video">
+			
+		<p><a href="" onclick="turnOn()">PA PA KSN SJ SJ </a></p></div>
+						<div class="video">
+			
+		<p><a href="" onclick="turnOn()">PA PA KSN SJ SJ </a></p>
+	</div>
+		</div>
+		</div>
+		<!--  ----------------------------------------------FOOTER----------------------------------------------- -->
+  <div class="row-fluid navbar-bottom ">
+    <div class="col-lg-12 footer">
+      <p>Создано<a href="https://vk.com/blackpinklady" rel="nofollow"><img src="img/vk.png" alt="vk.com"/></a>
+      с помощью материалов на <a href="https://ru.wikipedia.org/" rel="nofollow"><img src="img/wiki.png" alt="wikipedia.org"/></a>
+      <a href="https://youtube.com" rel="nofollow"><img src="img/youtube.png" alt="youtube.com"/></a>
+      <a href="https://vk.com/polit_yumor" rel="nofollow"><img src="img/vk.png" alt="vk.com"/></a>
+      <a href="https://vk.com/ruopp" rel="nofollow"><img src="img/vk.png" alt="vk.com"/></a>
+      <a href="https://www.youtube.com/user/NavalnyRu" rel="nofollow"><img src="img/youtube.png" alt="youtube.com/navalnytu"/></a>
+      <a href="https://tvrain.ru/" rel="nofollow"><img src="https://s79369.cdn.ngenix.net/static/svg/tvrain-v2.svg?0.png" alt="tvrain.ru"/></a>
+      <a href="https://vk.com/life" rel="nofollow"><img src="img/vk.png" alt="vk.com/life"></a>
+    </p>
+    </div>
+  </div>
+  </div>
+<!-- SCRIPTS -->
+	<script src="attachment\js\jquery-3.3.1.min.js"></script>
+	<script src="attachment\js\bootstrap.min.js"></script>
+	<script  type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('iframe').attr('width','100%');
+			$('iframe').attr('height','80%');
+			var screenW = $(window).width();
+			 if (screenW > 1200) {
+              $('.video').click(function turnOn(){
+                    This = this;
+                  $(this).css({
+                   "width":"70%",
+                   "height":"75%",
+                   "position":"absolute",
+                   "z-index":"100",
+                   "margin":"0px 180px",
+                   "box-shadow":"0 0 15px black"
+                  });
+                  $('.video').hide();
+                  $('body').css("background-color","rgb(0,0,0,0.9)");
+                  $('iframe').css('height','90%');
+                  $(this).fadeIn(1000);
+                  // EXIT
+			    $(window).click(function(){
+            	   $(This).fadeOut(1000);
+            	   $(This).css({
+				    "width":"30%",
+				    "height":"none",
+				    "position":"relative",
+				    "z-index":"0",
+				    "margin":"0px",
+				    "box-shadow":"none"
+				   });
+				   $('iframe').css('height','80%');
+				   $('body').css("background-color","rgb(0,0,0,0)");
+				   $('.video').show();
+				   $(This).fadeIn(1000);
+                 });
+                 $(this).click(function(event){
+                 	event.stopPropagation()
+                  });
+                 return false;
+                 });
+			};
+
+
+  });
+	</script>
+</body>
+</html>

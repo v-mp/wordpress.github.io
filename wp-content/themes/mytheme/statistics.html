@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Статистика</title>
+  <meta name="theme-color" content="#FFD400">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" type="image/png" href="img/logo.png">
+	<link rel="stylesheet" type="text/css" href="attachment/css/bootstrap.min.css">
+     <link rel="stylesheet" type="text/css" href="attachment/css/bootstrap-reboot.min.css">
+     <link rel="stylesheet" type="text/css" href="css/index.css">
+     <style>
+        body{
+          margin:0px;
+          padding:0px;
+        }
+       .container{
+        background-color:white;
+        margin:70px 50px;
+        margin-bottom: 20px;
+       }
+       .row{
+        background-color:#E9EDF1;
+        margin:10px 20px;
+        margin-bottom: 15px;
+        padding:10px 15px;
+        border-radius: 5px;
+       }
+       .row:hover,.row:focus{
+        cursor: pointer;
+        transform: scale(1.05);
+       }
+       h1{
+        padding:5px auto;
+
+       }
+       h2{
+        color:#727272 !important;
+       }
+       @media only screen and (max-width: 1000px) {
+        .container{
+          margin:0px;
+          margin-top:70px;
+          padding:0px;
+        }
+        .row{
+          margin:0px;
+          margin-bottom:20px;
+          padding:0px;
+          border-radius: 0px;
+        }
+       }
+       @media only screen and (max-width: 1024px) and (min-width: 600px) and (min-height: 900px) {
+        .container{
+          margin:70px auto;
+          margin-bottom: 20px;
+        }
+       }
+     </style>
+</head>
+<body>
+  <div id="content">
+<!---------------------------------------------------- HEADER -------------------------------------------------->
+  <div class="header">
+  <div class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container-fluid">
+          <div class="navbar-header">
+          <button class="navbar-toggle" >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="logo">
+          <a href="politnews.html">
+          <img src="img/logo.png" />
+          <div class="brand">
+          <p>Russian</p><p>Political</p><p>News</p>
+          </div></a>
+        </div>
+        </div>
+          <div class="navbar-collapse" style="display: none;" id="toggle">
+            <ul class="nav navbar-nav">
+               <li><a href="index.html">Новости</a></li>
+               <li><a href="video.html">Видео</a></li>
+               <li><a href="statistics.html">Статистика</a></li>
+            </ul>
+             <p class="pull-right" id='globaltime'></p>
+          </div>
+      </div>
+  </div>
+  </div>
+    <!-- ----------------------------------------------MAIN------------------------------------------------ -->
+    <div class="container">
+      <h1>text tex te xttxtf</h1>
+      <div class="row"><h2>TEXT TEXT TEXT TEXT</h2></div>
+      <div class="row"><h2>TEXT TEXT TEXT TEXT</h2></div>
+      <div class="row"><h2>TEXT TEXT TEXT TEXT</h2></div>
+      <div class="row"><h2>TEXT TEXT TEXT TEXT</h2></div>
+      <div class="row"><h2>TEXT TEXT TEXT TEXT</h2></div>
+    </div>
+  <!--  ----------------------------------------------FOOTER----------------------------------------------- -->
+  <div class="row-fluid navbar-bottom ">
+    <div class="col-lg-12 footer">
+      <p>Создано<a href="https://vk.com/blackpinklady" rel="nofollow"><img src="img/vk.png" alt="vk.com"/></a>
+      с помощью материалов на <a href="https://ru.wikipedia.org/" rel="nofollow"><img src="img/wiki.png" alt="wikipedia.org"/></a>
+      <a href="https://youtube.com" rel="nofollow"><img src="img/youtube.png" alt="youtube.com"/></a>
+      <a href="https://vk.com/polit_yumor" rel="nofollow"><img src="img/vk.png" alt="vk.com"/></a>
+      <a href="https://vk.com/ruopp" rel="nofollow"><img src="img/vk.png" alt="vk.com"/></a>
+      <a href="https://www.youtube.com/user/NavalnyRu" rel="nofollow"><img src="img/youtube.png" alt="youtube.com/navalnytu"/></a>
+      <a href="https://tvrain.ru/" rel="nofollow"><img src="https://s79369.cdn.ngenix.net/static/svg/tvrain-v2.svg?0.png" alt="tvrain.ru"/></a>
+      <a href="https://vk.com/life" rel="nofollow"><img src="img/vk.png" alt="vk.com/life"></a>
+    </p>
+    </div>
+  </div>
+  </div>
+</div>
+	<script src="attachment\js\jquery-3.3.1.min.js"></script>
+  <script src="attachment\js\bootstrap.min.js"></script>
+ <script  type="text/javascript" src="js/index.js"></script>
+  <script>
+    $(document).ready(function(){
+      var otherHeight = $('.container').height()
+      otherHeight += $('.header').height();
+      var screenH = $(window).height();
+      var height=screenH - otherHeight - '150';
+      $('.footer').css('margin-top',height);
+    });
+  </script>
+</body>
+</html>
