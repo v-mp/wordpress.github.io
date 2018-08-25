@@ -1,1 +1,1 @@
-# opposition
+# ru-politnews
