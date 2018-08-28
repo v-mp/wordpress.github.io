@@ -22,3 +22,4 @@ function load_my_script(){
 }
 add_action('wp_enqueue_scripts','load_my_script');
 add_theme_support( 'post-thumbnails' );
+remove_filter('template_redirect', 'redirect_canonical'); 
