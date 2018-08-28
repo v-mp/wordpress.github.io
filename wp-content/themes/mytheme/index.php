@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
+  <link rel="canonical" href="Ru-PolitNews.tk">
   <link rel="shortcut icon" href="<?php bloginfo('template_url');?>/img/logo.png" type="image/x-icon">
     <?php wp_head(); ?>
     <!--  ini_set( 'display_errors', '0' ); -->
